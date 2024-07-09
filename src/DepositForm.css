@@ -1,0 +1,20 @@
+.username-para{
+    background-color: aliceblue;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.username-para span{
+    color: purple;
+    margin-left: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+select{
+    border:2px solid purple;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.select-box{
+    margin: 10px;
+}

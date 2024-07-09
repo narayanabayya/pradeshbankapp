@@ -1,0 +1,7 @@
+
+.image-container{
+    background-image: url('./Images/Bank.jpg');
+}
+.err-msg{
+    color: red;
+}

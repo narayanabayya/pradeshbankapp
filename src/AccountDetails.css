@@ -1,0 +1,29 @@
+.text-container table,
+tr,th,
+td{
+  border: 2px solid rgb(51, 25, 157);
+  /* border-collapse: collapse; */
+  /* padding: 10px; */
+  width: 300px;
+  height: 40px;
+  background-color: #96D4D4;
+  color: rgb(51, 25, 157);
+  background-color: aliceblue;
+}
+caption{
+  color: rgb(51, 25, 157);
+  text-align: center;
+}
+
+.text-container table,
+tr,
+td span {
+  color: purple;
+  margin-left: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+th{
+  background-color: #96D4D4;
+
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+}
+
+.image-container1 {
+    background-image: url('./Images/bankimage.jpeg');
+    height: 90vh;
+    width: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.para-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-container1 {
+        background-image: url('./Images/bankimage.jpeg');
+        height: 50vh;
+        width: 50vh;
+        background-size: 100% 100%;
+
+    }
+
+    .para-container {
+        /* color: red; */
+        display: block;
+    }
+}
